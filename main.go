@@ -22,7 +22,7 @@ func main() {
 	// sure that your code is aligned with the Iris' MVC Architecture.
 	app.Logger().SetLevel("debug")
 
-	// Load the template files.
+	// Load the template files.  
 	tmpl := iris.HTML("./web/views", ".html").
 		Layout("shared/layout.html").
 		Reload(true)
